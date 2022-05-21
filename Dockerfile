@@ -1,5 +1,4 @@
 FROM ubuntu:20.04
-LABEL maintainer "jwgibanez@protonmail.ch"
 
 ENV DEBIAN_FRONTEND noninteractive
 ENV NODE "/node"
