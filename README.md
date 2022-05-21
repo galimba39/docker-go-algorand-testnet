@@ -1,11 +1,11 @@
 # docker-go-algorand. Testnet setup
-Docker image for setting up an Algorand testnet node.
+Docker image to set up an Algorand testnet node.
 
 1) Build the docker 
 
 > docker build -t algorand_test .
 
-2) Please assigns port 4001 while starting the docker container.
+2) Assigns port 4001 while starting the docker container.
 
 3) Get your API token.
 
@@ -15,7 +15,7 @@ Docker image for setting up an Algorand testnet node.
 
 ### Usage example: python
 
-Please refer to [here](https://developer.algorand.org/docs/sdks/python/#connect-your-client) for the complete example
+Please refer to [this](https://developer.algorand.org/docs/sdks/python/#connect-your-client) for the complete example
 
 > from algosdk.v2client import algod <br> 
 > algod_address = "http://localhost:XXXX" <br> 
